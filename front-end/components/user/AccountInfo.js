@@ -222,7 +222,7 @@ const AccountInfo = ({ user }) => {
                 }}
                 src={
                   vipLogo ??
-                  "https://w7.pngwing.com/pngs/902/825/png-transparent-vip-logo-euclidean-very-important-person-logo-vip-guest-badge-emblem-pin-clothing-accessories.png"
+                  "https://i.ibb.co/wGBg7gk/logovip.png"
                 }
                 width={80}
                 height={80}

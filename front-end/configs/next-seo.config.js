@@ -16,7 +16,7 @@ const NextSeoConfig = {
   additionalLinkTags: [
     {
       rel: "icon",
-      href: "/assets/images/logo.png",
+      href: "/assets/images/logso.png",
     },
   ],
   openGraph: {

@@ -27,7 +27,7 @@ const NextSeoConfig = {
     description: "KOREA CASINO",
     images: [
       {
-        url: "/assets/images/logo33.png",
+        url: "/assets/images/logso.png",
         width: 1200,
         height: 628,
       },

@@ -1,8 +1,8 @@
 const NextSeoConfig = {
   title: null,
-  titleTemplate: "%s | KOREA CASINO",
-  defaultTitle: "KOREA CASINO",
-  description: "KOREA CASINO - Hệ thống casino trực tuyến",
+  titleTemplate: "%s | SANDS CASINO",
+  defaultTitle: "SANDS CASINO",
+  description: "SANDS CASINO - Hệ thống casino trực tuyến",
   additionalMetaTags: [
     {
       property: "keywords",
@@ -16,18 +16,18 @@ const NextSeoConfig = {
   additionalLinkTags: [
     {
       rel: "icon",
-      href: "/assets/images/logso.png",
+      href: "/assets/images-new/logo.png",
     },
   ],
   openGraph: {
     type: "website",
     locale: "vi_VN",
     url: process.env.NEXTAUTH_URL,
-    siteName: "KOREA CASINO",
-    description: "KOREA CASINO",
+    siteName: "SANDS CASINO",
+    description: "SANDS CASINO",
     images: [
       {
-        url: "/assets/images/logso.png",
+        url: "/assets/images-new/logo.png",
         width: 1200,
         height: 628,
       },
@@ -37,8 +37,8 @@ const NextSeoConfig = {
     appId: process.env.FACEBOOK_APPID,
   },
   twitter: {
-    handle: "@KOREA",
-    site: "@KOREA",
+    handle: "@SANDS",
+    site: "@SANDS",
     cardType: "summary_large_image",
   },
 };

@@ -263,7 +263,7 @@ const Home = () => {
           </div>
         </Box>
 
-       // {status === "authenticated" && <BotGames />}
+      
       </Layout>
     </>
   );

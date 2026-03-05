@@ -159,18 +159,11 @@ const Home = () => {
       active: games["keno5P"] !== "inactive",
     },
     {
-      title: t("LOTTERY 3M"),
-      desc: t("Mo ta xo so 3p"),
-      img: XoSo3P,
-      link: "/games/xoso3p",
-      active: games["xoso3P"] !== "inactive",
-    },
-    {
-      title: t("LOTTERY 5M"),
-      desc: t("Mo ta xo so 5p"),
-      img: XoSo5P,
-      link: "/games/xoso5p",
-      active: games["xoso5P"] !== "inactive",
+      title: t("KENO 3M"),
+      desc: t("Mo ta keno 3p"),
+      img: Keno3P,
+      link: "/games/keno3p",
+      active: games["keno3P"] !== "inactive",
     },
     {
       title: t("KENO 1M"),
@@ -180,11 +173,25 @@ const Home = () => {
       active: games["keno1P"] !== "inactive",
     },
     {
-      title: t("KENO 3M"),
-      desc: t("Mo ta keno 3p"),
-      img: Keno3P,
-      link: "/games/keno3p",
-      active: games["keno3P"] !== "inactive",
+      title: t("LOTTERY 5M"),
+      desc: t("Mo ta xo so 5p"),
+      img: XoSo5P,
+      link: "/games/xoso5p",
+      active: games["xoso5P"] !== "inactive",
+    },
+    {
+      title: t("LOTTERY 3M"),
+      desc: t("Mo ta xo so 3p"),
+      img: XoSo3P,
+      link: "/games/xoso3p",
+      active: games["xoso3P"] !== "inactive",
+    },
+    {
+      title: t("DICE 3M"),
+      desc: t("Mo ta dice 3p"),
+      img: XucXac3P,
+      link: "/games/xucxac3p",
+      active: games["xucxac3P"] !== "inactive",
     },
     {
       title: t("DICE 1M"),
@@ -192,14 +199,6 @@ const Home = () => {
       img: XucXac1P,
       link: "/games/xucxac1p",
       active: games["xucxac1P"] !== "inactive",
-    },
-
-    {
-      title: t("DICE 3M"),
-      desc: t("Mo ta dice 3p"),
-      img: XucXac3P,
-      link: "/games/xucxac3p",
-      active: games["xucxac3P"] !== "inactive",
     },
     {
       title: t("DISH SHAKING 1M"),
@@ -264,7 +263,7 @@ const Home = () => {
           </div>
         </Box>
 
-        {status === "authenticated" && <BotGames />}
+       // {status === "authenticated" && <BotGames />}
       </Layout>
     </>
   );

@@ -1,8 +1,8 @@
 const NextSeoConfig = {
   title: null,
-  titleTemplate: "%s | SANDS CASINO",
-  defaultTitle: "SANDS CASINO",
-  description: "SANDS CASINO - Hệ thống casino trực tuyến",
+  titleTemplate: "%s | WORLD CLUB",
+  defaultTitle: "WORLD CLUB",
+  description: "WORLD CLUB - Hệ thống casino trực tuyến",
   additionalMetaTags: [
     {
       property: "keywords",
@@ -23,8 +23,8 @@ const NextSeoConfig = {
     type: "website",
     locale: "vi_VN",
     url: process.env.NEXTAUTH_URL,
-    siteName: "SANDS CASINO",
-    description: "SANDS CASINO",
+    siteName: "WORLD CLUB",
+    description: "WORLD CLUB",
     images: [
       {
         url: "/assets/images-new/logo.png",
@@ -37,8 +37,8 @@ const NextSeoConfig = {
     appId: process.env.FACEBOOK_APPID,
   },
   twitter: {
-    handle: "@SANDS",
-    site: "@SANDS",
+    handle: "@WORLDCLUB",
+    site: "@WORLDCLUB",
     cardType: "summary_large_image",
   },
 };

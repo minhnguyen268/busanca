@@ -1,8 +1,8 @@
 const NextSeoConfig = {
   title: null,
-  titleTemplate: "%s | WORLD CLUB",
-  defaultTitle: "WORLD CLUB",
-  description: "WORLD CLUB - Hệ thống casino trực tuyến",
+  titleTemplate: "%s | LINE CLUB",
+  defaultTitle: "LINE CLUB",
+  description: "LINE CLUB - Hệ thống casino trực tuyến",
   additionalMetaTags: [
     {
       property: "keywords",
@@ -23,8 +23,8 @@ const NextSeoConfig = {
     type: "website",
     locale: "vi_VN",
     url: process.env.NEXTAUTH_URL,
-    siteName: "WORLD CLUB",
-    description: "WORLD CLUB",
+    siteName: "LINE CLUB",
+    description: "LINE CLUB",
     images: [
       {
         url: "/assets/images-new/logo.png",
@@ -37,8 +37,8 @@ const NextSeoConfig = {
     appId: process.env.FACEBOOK_APPID,
   },
   twitter: {
-    handle: "@WORLDCLUB",
-    site: "@WORLDCLUB",
+    handle: "@LINECLUB",
+    site: "@LINECLUB",
     cardType: "summary_large_image",
   },
 };
